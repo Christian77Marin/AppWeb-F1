@@ -1,0 +1,56 @@
+
+/*Para los slots del btn-race*/
+a:hover{
+    background-color: #dddddd;
+  }
+  
+/*importamos la fuente*/
+  @font-face {
+    font-family: 'FasterOne-Regular';
+    src: url('src\assets\fonts\FasterOne-Regular.ttf')  format('truetype');
+    }
+
+
+.f1-font{
+    font-family:FasterOne-Regular;
+    font-size: 50px;
+    color:#61A210;
+}
+
+.copy{
+    font-size:25px;
+    position:relative;
+    top:-13px;
+}
+
+.normal-font{
+    font-family: "Segoe UI";
+    color:gray;
+
+}
+
+a{
+  color:black;
+}
+
+.btn-back{
+ 
+	border:1px solid #61A210;
+  background-color: #61A210;
+  color:#ffffff;
+
+	font-family:Arial;
+	font-size:14px;
+	font-weight:bold;
+
+	padding:7px 20px;
+  border-radius:7px;
+  display:inline-block;
+  
+
+  float:right;
+  position: relative;
+  right:14%;
+  cursor:pointer;
+
+}

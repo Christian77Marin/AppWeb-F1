@@ -1,0 +1,16 @@
+
+
+<h1 class="text-center"><span class="f1-font">F</span>
+    <span class="normal-font">ORMULA </span>
+    <span class="f1-font">1</span>
+        <span class="copy normal-font">&copy;</span>
+        <span class="f1-font">C</span>
+    <span class="normal-font">HAMPIONSHIP</span></h1>
+
+    <btn-race *ngIf="!route.url.includes('driver')">
+        <a slot="buttonraces" class="nav-item nav-link" [routerLink]="['']">Global</a>
+        <a slot="buttonraces" class="nav-item nav-link" *ngFor="let race of races" [routerLink]="['/ranking/', race]">{{race}}</a>
+      </btn-race>
+    
+    <button *ngIf="route.url.includes('driver')" class="btn-back" (click)="GoBack()">Back</button>
+

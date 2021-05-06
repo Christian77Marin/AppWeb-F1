@@ -1,0 +1,32 @@
+<div class="position-table">
+  <table class="table table-hover borderless resize">
+    <thead>
+      <tr>
+        <th class="thgreenleft thgreen"></th>
+        <th class="thgreen">Race</th>
+        <th class="thgreen">Position</th>
+        <th class="thgreenright thgreen">Time</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let race of driver.races" [routerLink]="['/ranking/', race.name]">
+        <td></td>
+        <td>{{race.name}}</td>
+        <td *ngIf="race.position === 1">🥇</td>
+        <td *ngIf="race.position === 2">🥈</td>
+        <td *ngIf="race.position === 3">🥉</td>
+        <td *ngIf="race.position > 3">{{race.position}}</td>
+        <td>{{race.time}}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+<driver-container
+  class="position-driver-container"
+  picture={{driver.picture}}
+  name={{driver.name}}
+  age={{driver.age}}
+  team={{driver.team}}
+  global={{driver.globalPos}}
+></driver-container>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>

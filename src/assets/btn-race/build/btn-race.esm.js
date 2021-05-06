@@ -1,0 +1,1 @@
+import{p as r,b as a}from"./p-81fc5ca5.js";(()=>{const a=import.meta.url,p={};return""!==a&&(p.resourcesUrl=new URL(".",a).href),r(p)})().then((r=>a([["p-a5695d21",[[1,"btn-race"]]]],r)));

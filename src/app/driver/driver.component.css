@@ -1,0 +1,89 @@
+
+.borderless td, .borderless th {
+    border: none;
+}
+
+.thgreen{
+    padding-top: 2px;
+    padding-bottom: 2px;
+    font-style: oblique;
+    font-weight: 500;
+    text-align: left;
+    background-color: #61A210;
+    color: white; 
+}
+
+tr:nth-child(even){
+    background-color: #f2f2f2;
+   }
+
+
+   .thgreenleft{
+    border-top-left-radius: 200px;
+    border-collapse: separate; 
+    overflow: hidden;
+    perspective: 1px;
+}
+
+.thgreenright{
+    border-bottom-right-radius: 200px;
+    border-collapse: separate; 
+    overflow: hidden;
+    perspective: 1px;
+}
+
+tbody>tr:hover {
+    
+    transform: translateX(2%);
+    cursor: pointer;
+  }
+
+
+  .img-circle{
+    display:block;
+    height:25px;
+    width:25px;
+    border-radius:50%;
+    margin-left: 10%
+  }
+
+  .resize{width:71%;}
+
+/*arreglar esto*/
+  .ranking{
+      position:relative;
+      top:-40px;
+      color:#61A210;
+      font-weight: 700;
+      font-style:oblique;
+      width: 500px;
+  }
+
+
+  .table{
+      position:relative;
+      top:-20px;
+  }
+  
+  .center{
+    position:relative;
+   left: 15%;
+}
+
+
+.position-driver-container{
+    float:left;
+    width:20%;
+    left: 25%;
+    position:relative;
+
+}
+
+
+.position-table{
+    float:right;
+    position:relative;
+    top: 40px;
+    width:35%;
+    right: 50px;
+}

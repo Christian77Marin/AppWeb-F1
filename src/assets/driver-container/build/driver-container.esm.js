@@ -1,0 +1,1 @@
+import{p as e,b as r}from"./p-bed97890.js";(()=>{const r=import.meta.url,a={};return""!==r&&(a.resourcesUrl=new URL(".",r).href),e(a)})().then((e=>r([["p-5c96d8b9",[[1,"driver-container",{name:[1],age:[1],team:[1],picture:[1],global:[1]}]]]],e)));
